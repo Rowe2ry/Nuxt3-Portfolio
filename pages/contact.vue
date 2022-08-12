@@ -1,11 +1,11 @@
 <template>
     <div>
         <Hero
-            title="web developer"
-            tagline="Hi there! Allow me to introduce myself..."
-            color="cyan"
+            title="contact me"
+            tagline="Lets have a chat sometime..."
+            color="gold"
         />
-        <InfoCard id="infoCard" color="cyan"/>
+        <InfoCard id="infoCard" color="gold"/>
         <Nav/>
     </div>
 </template>
@@ -14,7 +14,7 @@
     useHead({
         title: 'Chris Rowe',
         meta: [
-            { name: 'description', content: 'My portfolio.' }
+            { name: 'description', content: 'Contact Me.' }
         ],
         link: [
             { rel: "icon", type: "image/x-icon", href: "/favicon.ico" },

@@ -17,6 +17,10 @@ module.exports = {
         'cr-light': '#F3F7FF',
         'cr-dark': '#2F3132',
         'cr-gray': '#C0C4C9'
+      },
+      fontFamily: {
+        'museo': ['MuseoModerno', 'cursive'],
+        'lato': ['Lato', 'sans-serif']
       }
     },
     screens: {

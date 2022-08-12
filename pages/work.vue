@@ -1,11 +1,11 @@
 <template>
     <div>
         <Hero
-            title="web developer"
-            tagline="Hi there! Allow me to introduce myself..."
-            color="cyan"
+            title="my work"
+            tagline="Here are some of the projects I have worked on..."
+            color="pink"
         />
-        <InfoCard id="infoCard" color="cyan"/>
+        <InfoCard id="infoCard" color="pink"/>
         <Nav/>
     </div>
 </template>
