@@ -1,6 +1,15 @@
 {
-    "section": "Technologies",
-    "color": "cyan",
+    "section": "Dev Doctor",
+    "color": "pink",
+    "projDesc": "Full stack React application allowing users to securely log in and create their own websites without having to write any code. Users gain access to components leveraging React’s state management for advanced functionality such as regex-based string analyzation on top of 6 professionally designed CSS themes.",
+    "btnOne": "Visit DevDr",
+    "linkOne": "https://dev-doctor.herokuapp.com/",
+    "repoAvail": 1,
+    "btnTwo": "View Repository",
+    "linkTwo": "https://github.com/jdmill/devdoc",
+    "mainImg": "DevDr.png",
+    "img2": "DevDocPic2.png",
+    "img3": "DevDocPic3.png",
     "techs": [
         {
             "techName": "HTML",

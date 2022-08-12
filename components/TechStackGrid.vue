@@ -7,8 +7,9 @@
 <script>
     export default {
         props: {
-            title: {
-                type: String
+            info: {
+                type: Object,
+                required: true
             }
         }
     }
