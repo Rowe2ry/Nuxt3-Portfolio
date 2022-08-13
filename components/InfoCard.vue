@@ -5,21 +5,47 @@
     >
         <!-- Card Start -->
         <article
+            id="card"
             class="bg-cr-light rounded-lg w-[92%] mx-auto pt-14 px-4 pb-24
-            md:pt-24 md:pb-32 md:w-full md:rounded-l-none md:rounded-r-[3rem]
-            lg:pt-32 lg:pb-44 lg:rounded-none"
+            md:pt-24 md:pb-32 md:pl-16 md:pr-12 md:w-full md:rounded-l-none md:rounded-r-[3rem]
+            lg:pt-32 lg:pb-44 lg:rounded-none lg:px-36"
         >
-            <section
-                v-for="(section, index) in content"
-                :key="index"
-                :id="section.section"
-            >
-                <TechStackGrid
-                    v-if="section.sectionType === 'tsg'"
-                    :info="section"
-                    :count="index"
-                />
-            </section>
+            <div class="mx-auto max-w-[1600px]">
+                <section
+                    class="relative"
+                    v-for="(section, index) in content"
+                    :key="index"
+                    :id="section.section"
+                >
+                    <!-- Decorative Element -even- (desktop only) -->
+                    <div
+                        v-if="index % 2 === 0"
+                        class="clippedL decoration hidden absolute left-0 top-0 w-20 h-40 -translate-x-36 -translate-y-[calc(50%-0.75rem)] lg:block"
+                        :style="{'background-color': bgColor}"
+                    />
+                    <!-- Decorative Element -odd- (desktop only) -->
+                    <div
+                        v-else
+                        class="clippedR decoration hidden absolute right-0 top-0 w-20 h-40 translate-x-36 -translate-y-1/2 lg:block"
+                        :style="{'background-color': bgColor}"
+                    />
+                    <!-- Content (tsg = Tech Stack Grid, an optional heading and an array of icons) -->
+                    <TechStackGrid
+                        v-if="section.sectionType === 'tsg'"
+                        :info="section"
+                    />
+                    <!-- Content (lt1 = list type 1, an optional heading and bulleted list with (ideally) single line entries) -->
+                    <ListType1
+                        v-else-if="section.sectionType === 'lt1'"
+                        :info="section"
+                    />
+                    <!-- Content (lt1 = list type 2, an optional heading and bulleted list with multi-line entries and a smaller text field below each entry) -->
+                    <ListType2
+                        v-else-if="section.sectionType === 'lt2'"
+                        :info="section"
+                    />
+                </section>
+            </div>
         </article>
         <div
             @click="scrollToTop"
@@ -77,6 +103,23 @@
 </script>
 
 <style scoped>
+    .clippedL {
+        clip-path: polygon(0 0, 0% 100%, 100% 50%);
+    }
+
+    .clippedR {
+        clip-path: polygon(0 50%, 100% 100%, 100% 0);
+
+    }
+    
+    @media screen and (max-width: 300px) {
+        #card {
+            width: 100%;
+            padding-left: 0.5rem;
+            padding-right: 0.5rem;
+        }
+    }
+    
     #scroll-up:hover #up {
         animation: bouncy-jiggle 3.8s linear infinite;
         transform-origin: bottom;

@@ -119,7 +119,7 @@
                 },
                 {
                     "techName": "PWAs",
-                    "icon": "html.svg",
+                    "icon": "pwa.svg",
                     "abbr": "Progressive Web Applications",
                     "desc": "a type of application software delivered through the web, built using common web technologies including HTML, CSS, JavaScript, and WebAssembly. The end result is a web application that looks and behaves as if it were a native application"
                 }

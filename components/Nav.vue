@@ -1,6 +1,6 @@
 <template>
     <nav 
-        class="w-full h-24 bg-cr-dark fixed bottom-0 duration-150 ease-in
+        class="z-20 w-full h-24 bg-cr-dark fixed bottom-0 duration-150 ease-in
         md:bottom-1/2 md:right-0 md:w-24 md:h-80 md:rounded-l-[3rem] md:translate-y-1/2
         lg:-translate-y-[3.25rem] lg:bottom-auto lg:top-0 lg:w-1/2 lg:rounded-tl-none lg:h-24 lg:rounded-bl-full lg:hover:translate-y-0"
     >

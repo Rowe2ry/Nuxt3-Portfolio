@@ -4,10 +4,10 @@
             v-if="info.section"
             :title="info.section"
             :color="info.color"
-            class="sticky top-0"
+            class="sticky top-0 z-10"
         />
         <!-- Grid container -->
-        <div class="grid grid-cols-4">
+        <div class="grid grid-cols-4 md:grid-cols-5 lg:grid-cols-7 mb-16 md:mb-20 lg:mb-36">
             <TechStackIcon
                 v-for="(technology, index) in info.techs"
                 :key="index"

@@ -1,6 +1,6 @@
 <template>
     <section
-        class="relative w-full min-h-[calc(100vh-6rem)] overflow-x-hidden
+        class="relative w-full h-[calc(100vh-6rem)] min-h-[34rem] overflow-x-hidden
             md:min-h-screen lg:overflow-hidden"
         :style="{'background-color': heroColor}"
     >
@@ -60,14 +60,14 @@
         <div 
             @click="scrollDown()"
             class="w-full h-20 bottom-0 cursor-pointer group absolute overflow-hidden flex items-center justify-center
-            lg:h-32"
+            lg:h-24"
         >
             <p class="text-cr-light w-24 text-right pr-4 uppercase font-lato font-black text-xl duration-300 translate-y-full opacity-0
             lg:text-3xl lg:pr-20 lg:w-48
             group-hover:translate-y-0 group-hover:opacity-100">
                 scroll
             </p>
-            <img class="bouncy lg:w-16 lg-h-auto" src="/svg/down.svg" alt="chevron arrow pointing down">
+            <img class="bouncy lg:w-12 lg-h-auto" src="/svg/down.svg" alt="chevron arrow pointing down">
             <p class="text-cr-light w-24 pl-4 uppercase font-lato font-black text-xl duration-300 translate-y-full opacity-0 group-hover:translate-y-0
             lg:text-3xl lg:pl-20 lg:w-48
             group-hover:opacity-100">
@@ -113,7 +113,7 @@ export default {
     methods: {
         scrollDown() {
             window.scrollTo({
-                    top: 600,
+                    top: 640,
                     behavior: 'smooth'
                 });
         }
