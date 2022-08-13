@@ -1,15 +1,15 @@
 <template>
     <div>
         <Hero
-            :title="this.pageData.pageTitle"
-            :tagline="this.pageData.tagline"
-            :color="this.pageData.color"
+            :title="pageData.pageTitle"
+            :tagline="pageData.tagline"
+            :color="pageData.color"
         />
         <InfoCard
             id="infoCard"
-            :color="this.pageData.color"
-            :content="this.pageData.sections"
-            :resume="this.pageData.resume"
+            :color="pageData.color"
+            :content="pageData.sections"
+            :resume="pageData.resume"
         />
         <Nav/>
     </div>

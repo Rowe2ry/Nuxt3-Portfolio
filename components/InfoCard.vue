@@ -1,14 +1,25 @@
 <template>
     <section
         class="w-full md:pr-28 lg:px-0"
-        :style="{'background-color': this.bgColor}"
+        :style="{'background-color': bgColor}"
     >
+        <!-- Card Start -->
         <article
             class="bg-cr-light rounded-lg w-[92%] mx-auto pt-14 px-4 pb-24
             md:pt-24 md:pb-32 md:w-full md:rounded-l-none md:rounded-r-[3rem]
             lg:pt-32 lg:pb-44 lg:rounded-none"
         >
-            hi
+            <section
+                v-for="(section, index) in content"
+                :key="index"
+                :id="section.section"
+            >
+                <TechStackGrid
+                    v-if="section.sectionType === 'tsg'"
+                    :info="section"
+                    :count="index"
+                />
+            </section>
         </article>
         <div
             @click="scrollToTop"
@@ -26,8 +37,15 @@
     export default {
         props: {    
             color: {
-            type: String,
-            default: 'cyan'
+                type: String,
+                default: 'cyan'
+            },
+            content: {
+                type: Array,
+                required: true
+            },
+            resume: {
+                type: Boolean
             }
         },
         data() {

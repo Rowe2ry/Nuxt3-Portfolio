@@ -2,7 +2,7 @@
     "pageTitle": "<span class=\"alt-char2\">m</span>y work",
     "tagline": "Here are some of the projects I have worked on...",
     "color": "pink",
-    "resume": 0,
+    "resume": false,
     "sections": [
         {
             "sectionType": "wt1",

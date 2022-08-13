@@ -1,27 +1,27 @@
 <template>
-    <div class="flex flex-col items-center justify-center w-full h-full group">
+    <div
+        :class="count === 20? 'hidden flex-col items-center justify-center w-full h-full group pb-5 lg:flex' : 'flex flex-col items-center justify-center w-full h-full group pb-5'"
+    >
         <img
-            :src="`/svg/${this.color}/${this.icon}`"
-            :alt="`Brand icon for the ${this.tech} technology.`"
+            :src="`/svg/techStackIcons/${color}/${tech.icon}`"
+            :alt="`Brand icon for the ${tech.techName} technology.`"
         />
         <p class="font-lato font-bold text-sm">
-            {{this.tech}}
+            {{tech.techName}}
         </p>
         <div
-            class="hidden fixed left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 rounded-2xl border-2 bg-cr-light
-            w-1/4 p-8 lg:group-hover:block duration:300"
-            :style="{'border-color':this.pageColor}"
+            class="hidden fixed left-1/2 top-24 -translate-x-1/2  rounded-2xl border-2 bg-cr-light
+            w-[800px] p-8 lg:group-hover:block"
         >
             <h4 class="font-lato font-bold text-cr-dark text-2xl">
-                <dfn v-if="this.abbr">{{this.abbr}}</dfn>
-                <dfn v-else>{{this.tech}}</dfn>
+                <dfn v-if="tech.abbr">{{tech.abbr}}</dfn>
+                <dfn v-else>{{tech.techName}}</dfn>
             </h4>
             <div
-                class="w-full h-6 rounded-full my-4"
-                :style="{'background-color': this.pageColor}"
-            />
+                class="w-full h-6 rounded-full my-4 bg-cr-light"
+            ></div>
             <p class="font-lato text-cr-dark font-normal">
-                {{this.desc}}
+                {{tech.desc}}
             </p>
         </div>
     </div>
@@ -35,35 +35,13 @@
                 default: 'cyan'
             },
             tech: {
-                type: String,
+                type: Object,
                 required: true
             },
-            icon: {
-                type: String,
-                required: true
-            },
-            abbr: {
-                type: String
-            },
-            desc: {
-                type: String,
-                required: true
+            count: {
+                type: Number
             }
         },
-        data() {
-            return {
-                pageColor = ''
-            }
-        },
-        mounted() {
-            if (this.color === 'pink') {
-                this.pageColor = '#C500C5';
-            } else if (this.color === 'gold') {
-                this.pageColor = '#EEAB00';
-            } else {
-                this.pageColor = '#00EAD0'
-            }
-        }
     }
 </script>
 

@@ -2,7 +2,7 @@
     "pageTitle": "web developer",
     "tagline": "Hi there! Allow me to introduce myself...",
     "color": "cyan",
-    "resume": 1,
+    "resume": true,
     "sections": [
         {
             "sectionType": "tsg",

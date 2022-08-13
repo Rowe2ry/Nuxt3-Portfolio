@@ -2,7 +2,7 @@
     <section
         class="relative w-full min-h-[calc(100vh-6rem)] overflow-x-hidden
             md:min-h-screen lg:overflow-hidden"
-        :style="{'background-color': this.heroColor}"
+        :style="{'background-color': heroColor}"
     >
         <!-- Circuitry backdrop (desktop only) -->
         <img

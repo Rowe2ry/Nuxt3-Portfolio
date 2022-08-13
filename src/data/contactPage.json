@@ -2,7 +2,7 @@
     "pageTitle": "co<span class=\"alt-char\">n</span>tact <span class=\"alt-char2\">m</span>e",
     "tagline": "<p style=\"margin-bottom:1.5em\">Let’s have a chat sometime...</p>",
     "color": "gold",
-    "resume": 1,
+    "resume": true,
     "sections": [
         {
             "sectionType": "con",
