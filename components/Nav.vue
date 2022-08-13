@@ -74,7 +74,7 @@
                 <p
                     class="relative font-museo text-cr-light uppercase text-base leading-none pt-4 font-bold group-hover:text-cr-gold"
                 >
-                    contact
+                    co<span class="alt-char">n</span>tact
                 </p>
             </NuxtLink>
         </div>

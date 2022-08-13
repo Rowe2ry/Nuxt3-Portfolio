@@ -8,7 +8,6 @@
     font-weight: 700;
 }
 
-
 @font-face {
     font-family: "MuseoModerno";
     src: url("/fonts/MuseoModerno-ExtraLight.ttf");
@@ -33,3 +32,11 @@
 }
 
 html, body { scroll-behavior: smooth; }
+
+.alt-char {
+    font-feature-settings: "ss01" !important;
+}
+
+.alt-char2 {
+    font-feature-settings: "ss02" !important;
+}

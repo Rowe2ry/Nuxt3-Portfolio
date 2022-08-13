@@ -33,3 +33,11 @@
 }
 
 html, body { scroll-behavior: smooth; }
+
+.alt-char {
+    font-feature-settings: "ss01" !important;
+}
+
+.alt-char2 {
+    font-feature-settings: "ss02" !important;
+}

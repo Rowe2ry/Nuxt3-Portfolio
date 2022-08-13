@@ -1,0 +1,62 @@
+{
+    "pageTitle": "co<span class=\"alt-char\">n</span>tact <span class=\"alt-char2\">m</span>e",
+    "tagline": "<p style=\"margin-bottom:1.5em\">Let’s have a chat sometime...</p>",
+    "color": "gold",
+    "resume": 1,
+    "sections": [
+        {
+            "sectionType": "con",
+            "section": "Email",
+            "color": "gold",
+            "list": [
+                {
+                    "icon": "mail.svg",
+                    "text": "chris@rowe2ry.com",
+                    "link": "mailto:chris@rowe2ry.com"
+                }
+            ]
+        },
+        {
+            "sectionType": "con",
+            "section": "Phone",
+            "color": "gold",
+            "list": [
+                {
+                    "icon": "phone.svg",
+                    "text": "404.713.8702",
+                    "link": "tel:(404) 713-8702"
+                }
+            ]
+        },
+        {
+            "sectionType": "con",
+            "section": "Networking",
+            "color": "gold",
+            "list": [
+                {
+                    "icon": "gh.svg",
+                    "text": "GitHub",
+                    "link": "https://github.com/Rowe2ry"
+                },
+                {
+                    "icon": "linkedIn.svg",
+                    "text": "LinkedIn",
+                    "link": "https://www.linkedin.com/in/rowe2ry/"
+                },
+                {
+                    "icon": "indeed.svg",
+                    "text": "Indeed",
+                    "link": "https://my.indeed.com/p/chrisr-4m53hsc"
+                }
+            ]
+        },
+        {
+            "sectionType": "loc",
+            "section": "Location",
+            "color": "gold",
+            "icon": "location.svg",
+            "text": "Located in Northeast Atlanta, GA",
+            "image": "atl.svg"
+        }
+    ]
+}

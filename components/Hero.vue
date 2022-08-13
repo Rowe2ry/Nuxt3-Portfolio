@@ -22,9 +22,8 @@
             class="absolute left-[5.625vw] top-[calc(14.5rem+20vw)] uppercase font-museo text-cr-dark text-[8.5vw] font-bold
             md:left-[min(3.5rem,5.5vw)] md:text-[min(5.2vw,2.5rem)] md:top-60
             lg:top-96 lg:left-24 lg:text-6xl"
-        >
-            {{ title }}
-        </h2>
+            v-html="title"
+        />
         <!-- Taper (tablet only) -->
         <div 
             class="trapezoid hidden md:block absolute bg-cr-light w-full h-96 top-56 lg:hidden"
@@ -55,9 +54,8 @@
             class="font-lato font-black w-[275px] text-cr-dark absolute left-[5.5vw] bottom-[7rem] text-xl
             md:left-[min(4.5rem,9vw)] md:bottom-auto md:top-[420px]
             lg:text-[2rem] lg:w-[450px] lg:left-32 lg:top-[38.375rem] lg:opacity-0 lg:-translate-y-1/2"
-        >
-            {{ tagline }}
-        </p>
+            v-html="tagline"
+        />
         <!-- scroll down div -->
         <div 
             @click="scrollDown()"
