@@ -1,11 +1,11 @@
 <template>
     <div class="relative w-full">
-        <h3 class="font-museo font-bold text-[1.375rem] leading-none">
+        <h3 class="font-museo font-bold text-[1.375rem] leading-none bg-cr-light pb-4">
             {{title}}
         </h3>
         <!-- horizontal rule -->
         <div
-            class="mx-auto mt-4 mb-6 w-[min(73vw,17.25rem)] h-[2px] rounded-full"
+            class="ml-3 mb-6 w-[min(70vw,17.25rem)] h-[2px] rounded-full"
             :style="{'background-color': pageColor}"
         />
     </div>

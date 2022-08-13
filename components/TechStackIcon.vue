@@ -6,7 +6,7 @@
             :src="`/svg/techStackIcons/${color}/${tech.icon}`"
             :alt="`Brand icon for the ${tech.techName} technology.`"
         />
-        <p class="font-lato font-bold text-sm">
+        <p class="font-lato font-bold text-[min(0.875rem,3.7vw)]">
             {{tech.techName}}
         </p>
         <div

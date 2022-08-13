@@ -4,7 +4,7 @@
             v-if="info.section"
             :title="info.section"
             :color="info.color"
-            sticky="true"
+            class="sticky top-0"
         />
         <!-- Grid container -->
         <div class="grid grid-cols-4">

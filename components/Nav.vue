@@ -6,7 +6,7 @@
     >
         <!-- Flex Container w/ nav buttons -->
         <div
-            class="absolute left-0 right-0 bottom-[1rem] flex flex-row space-x-8 space-y-8 items-end justify-center
+            class="absolute left-0 right-0 bottom-[1rem] flex flex-row space-x-[min(8.5vw,2rem)] space-y-8 items-end justify-center
             md:flex-col  md:left-auto md:right-3 md:bottom-10
             lg:flex-row lg:bottom-5 lg:right-24"
         >
@@ -29,7 +29,7 @@
                 </svg>
                 <!-- Link Label -->
                 <p
-                    class="relative font-museo text-cr-light uppercase text-base leading-none pt-4 font-bold group-hover:text-cr-pink"
+                    class="relative font-museo text-cr-light uppercase text-[min(4.2vw,1rem)] leading-none pt-4 font-bold group-hover:text-cr-pink"
                 >
                     work
                 </p>
@@ -49,7 +49,7 @@
                 </svg>
                 <!-- Link Label -->
                 <p
-                    class="relative font-museo text-cr-light uppercase text-base leading-none pt-4 font-bold group-hover:text-cr-cyan"
+                    class="relative font-museo text-cr-light uppercase text-[min(4.2vw,1rem)] leading-none pt-4 font-bold group-hover:text-cr-cyan"
                 >
                     about
                 </p>
@@ -72,7 +72,7 @@
                 </svg>
                 <!-- Link Label -->
                 <p
-                    class="relative font-museo text-cr-light uppercase text-base leading-none pt-4 font-bold group-hover:text-cr-gold"
+                    class="relative font-museo text-cr-light uppercase text-[min(4.2vw,1rem)] leading-none pt-4 font-bold group-hover:text-cr-gold"
                 >
                     co<span class="alt-char">n</span>tact
                 </p>
