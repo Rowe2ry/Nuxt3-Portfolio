@@ -1,7 +1,10 @@
 <template>
     <article class="pb-24 flex flex-col items-center">
         <!-- images -->
-        <div class="w-full relative md:aspect-video md:w-11/12 md:max-w-[575px]">
+        <div
+            class="w-full relative
+            md:aspect-video md:w-11/12 md:max-w-[575px]"
+        >
             <!-- Main thumbnail -->
             <a :href="info.linkOne" target="_blank" class="cursor-pointer">
                 <img
@@ -14,7 +17,8 @@
             <!-- Image 2 -->
             <a :href="info.linkOne" target="_blank" class="cursor-pointer">
                 <img
-                    class="hidden rounded-lg border-2 border-cr-dark md:block w-1/2 ml-auto mr-6"
+                    class="hidden rounded-lg border-2 border-cr-dark w-1/2 ml-auto mr-6
+                    md:block"
                     :src="`/image/${info.img2}`"
                     :alt="`Screenshot of the ${info.section}project.`"
                 />
@@ -22,7 +26,8 @@
             <!-- Image 3 -->
             <a :href="info.linkOne" target="_blank" class="cursor-pointer">
                 <img
-                    class="hidden rounded-lg border-2 border-cr-dark md:block w-1/3 ml-auto -translate-y-1/2 -mr-2"
+                    class="hidden rounded-lg border-2 border-cr-dark w-1/3 ml-auto -translate-y-1/2 -mr-2
+                    md:block"
                     :src="`/image/${info.img3}`"
                     :alt="`Screenshot of the ${info.section}project.`"
                 />
@@ -38,11 +43,18 @@
             :info="info"
         />
         <!-- Project Description -->
-        <p class="-mt-16 font-lato font-normal text-cr-dark text-[clamp(1rem,4.75vw,1.25rem)]">
+        <p
+            class="-mt-16 px-4 font-lato font-normal text-cr-dark text-[clamp(1rem,4.75vw,1.25rem)]
+            md:px-0
+            lg:text-[clamp(1.25rem,2.2vw,2rem)]"
+        >
             {{info.projDesc}}
         </p>
         <!-- CTA Buttons -->
-        <div class="w-full flex flex-col items-center md:flex-row md:flex-nowrap md:max-w-[35rem]">
+        <div
+            class="w-full flex flex-col items-center
+            md:flex-row md:flex-nowrap md:max-w-[35rem]"
+        >
             <!-- Visit Project Btn -->
             <div class="w-full">
                 <a
@@ -50,7 +62,8 @@
                     class="cursor-pointer"
                 >
                     <div
-                        class="mx-auto mt-8 w-[min(90%,16rem)] h-16 rounded-full flex items-center justify-center group bg-cr-pink border-2 border-cr-pink hover:bg-transparent"
+                        class="mx-auto mt-8 w-[min(90%,16rem)] h-16 rounded-full flex items-center justify-center group bg-cr-pink border-2 border-cr-pink 
+                        hover:bg-transparent"
                     >
                         <p
                             class="font-lato font-black text-xl text-cr-light group-hover:text-cr-pink"
@@ -68,10 +81,12 @@
                     class="cursor-pointer"
                 >
                     <div
-                        class="mx-auto mt-4 w-[min(90%,16rem)] h-8 rounded-full flex items-center justify-center group md:h-16 md:bg-cr-pink md:border-2 md:border-cr-pink md:hover:bg-transparent md:mt-8"
+                        class="mx-auto mt-4 w-[min(90%,16rem)] h-8 rounded-full flex items-center justify-center group
+                        md:h-16 md:bg-cr-pink md:border-2 md:border-cr-pink md:hover:bg-transparent md:mt-8"
                     >
                         <p
-                            class="floating-link relative font-lato font-black text-xl text-cr-pink md:text-cr-light md:group-hover:text-cr-pink"
+                            class="floating-link relative font-lato font-black text-xl text-cr-pink
+                            md:text-cr-light md:group-hover:text-cr-pink"
                         >
                             {{info.btnTwo}}
                         </p>
@@ -80,16 +95,19 @@
                 <!-- no repo -->
                 <div
                     v-else
-                    class="cursor-not-allowed mx-auto mt-4 w-[min(90%,16rem)] h-8 rounded-full flex items-center justify-center group md:h-16 md:bg-cr-gray md:mt-8"
+                    class="cursor-not-allowed mx-auto mt-4 w-[min(90%,16rem)] h-8 rounded-full flex items-center justify-center group
+                    md:h-16 md:bg-cr-gray md:mt-8"
                 >
                     <div class="text-center">
                         <p
-                            class="font-lato font-black text-xl text-[#808080] md:text-cr-light"
+                            class="font-lato font-black text-xl text-[#808080]
+                            md:text-cr-light md:text-[min(2.72vw,1.25rem)]"
                         >
                             {{info.btnTwo}}
                         </p>
                         <p
-                            class="font-lato font-black text-base text-[#808080] md:text-cr-light"
+                            class="font-lato font-black text-base text-[#808080]
+                            md:text-cr-light"
                         >
                             {{info.btnTwoDesc}}
                         </p>

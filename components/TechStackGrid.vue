@@ -9,7 +9,7 @@
         <!-- Grid container -->
         <div
             :class="info.color === 'pink' ?
-            'grid grid-cols-4 md:grid-cols-5 lg:grid-cols-7 mb-16 md:mb-20 lg:mb-36':
+            'grid grid-cols-4 md:grid-cols-5 mb-16 md:mb-20 lg:mb-36':
             'grid grid-cols-4 md:grid-cols-5 lg:grid-cols-7 mb-16 md:mb-20 lg:mb-36'"
         >
             <TechStackIcon
@@ -26,7 +26,7 @@
 <script>
 import TechStackIcon from './TechStackIcon.vue'
     export default {
-  components: { TechStackIcon },
+        components: { TechStackIcon },
         props: {
             info: {
                 type: Object,
@@ -37,5 +37,5 @@ import TechStackIcon from './TechStackIcon.vue'
 </script>
 
 <style scoped>
-
+    
 </style>

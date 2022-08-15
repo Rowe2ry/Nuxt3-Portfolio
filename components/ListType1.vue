@@ -15,12 +15,15 @@
             >
                 <!-- Bullet Point -->
                 <div 
-                    class="h-[7px] w-[7px] aspect-square rounded-full mr-3 mt-[min(4.2vw,1.25rem)] md:mt-[1.125rem] md:w-2.5 md:h-2.5 lg:mt-[min(1.67vw,1.5rem)]"
+                    class="h-[7px] w-[7px] aspect-square rounded-full mr-3 mt-[min(4.2vw,1.25rem)]
+                    md:mt-[1.125rem] md:w-2.5 md:h-2.5
+                    lg:mt-[min(1.67vw,1.5rem)]"
                     :style="{'background-color': pageColor}"
                 />
                 <p
                     v-html="item"
-                    class="font-lato text-cr-dark text-[clamp(1rem,4.75vw,1.5rem)] leading-normal py-1 lg:text-[clamp(1.25rem,2.2vw,2rem)]"
+                    class="font-lato text-cr-dark text-[clamp(1rem,4.75vw,1.5rem)] leading-normal py-1
+                    lg:text-[clamp(1.25rem,2.2vw,2rem)]"
                 />
             </li>
         </ul>
