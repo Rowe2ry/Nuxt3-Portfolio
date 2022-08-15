@@ -1,5 +1,5 @@
 <template>
-    <a :href="'/pdf/ChrisRoweResume_August_2022.pdf'" download="ChrisRowe_Resume_2022.pdf" class="cursor-pointer">
+    <a href="/pdf/ChrisRoweResume_August_2022.pdf" download="ChrisRowe_Resume_2022.pdf" class="cursor-pointer">
         <div
             id="resume"
             class="mx-auto w-64 h-16 rounded-full flex items-center justify-center group"

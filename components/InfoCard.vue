@@ -44,6 +44,16 @@
                         v-else-if="section.sectionType === 'lt2'"
                         :info="section"
                     />
+                    <!-- Content (wt1 = work type 1, heading, 3 thumbnails, tech stack icons, description, and 2 links) -->
+                    <WorkType1
+                        v-else-if="section.sectionType === 'wt1'"
+                        :info="section"
+                    />
+                    <!-- Content (wt2 = work type 2, heading, 6 thumbnails, tech stack icons, description, and 2 links) -->
+                    <WorkType2
+                        v-else-if="section.sectionType === 'wt2'"
+                        :info="section"
+                    />
                 </section>
                 <Resume v-if="resume" :color="color"/>
             </div>
