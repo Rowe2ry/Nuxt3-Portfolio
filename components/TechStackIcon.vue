@@ -26,7 +26,12 @@
             </p>
         </div>
         </div>
-        <p class="font-lato font-bold text-[min(0.875rem,3.7vw)]  text-center whitespace-nowrap md:text-lg lg:text-2xl">
+        <p
+            :class="color === 'pink' ?
+            'font-lato font-bold text-[min(0.875rem,3.7vw)] text-center whitespace-nowrap md:text-[min(2.5vw,1.125rem)] lg:text-[min(1.4vw,1.5rem)]'
+            :
+            'font-lato font-bold text-[min(0.875rem,3.7vw)] text-center whitespace-nowrap md:text-[min(2.5vw,1.125rem)] lg:text-2xl'"
+        >
             {{tech.techName}}
         </p>
     </div>

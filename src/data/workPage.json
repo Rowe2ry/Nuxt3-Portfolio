@@ -35,6 +35,11 @@
                     "desc": "a highly customizable utility-first CSS framework for rapidly building custom user interfaces."
                 },
                 {
+                    "techName": "Figma",
+                    "icon": "figma.svg",
+                    "desc": "a collaborative browser-based interface design and prototyping tool."
+                },
+                {
                     "techName": "Illustrator",
                     "icon": "illustrator.svg",
                     "abbr": "Adobe illustrator",
@@ -50,11 +55,6 @@
                     "icon": "css.svg",
                     "abbr": "Cascading Style Sheets",
                     "desc": "a style sheet language used for describing the presentation of a document written in a markup language such as HTML."
-                },
-                {
-                    "techName": "Figma",
-                    "icon": "figma.svg",
-                    "desc": "a collaborative browser-based interface design and prototyping tool."
                 },
                 {
                     "techName": "Builder",
@@ -180,7 +180,7 @@
         },
         {
             "sectionType": "wt2",
-            "section": "Mobile App Wireframe",
+            "section": "<span class=\"alt-char2\">M</span>obile App Wireframe",
             "color": "pink",
             "projDesc": "Complete wireframe and UI/UX for full-featured e-commerce application proposed for Barnes & Noble. App planning includes menus, user flows, notifications, touch points, and unique UI interaction tools. App is constructed to adhere to a brand guide.",
             "btnOne": "See Prototype",
