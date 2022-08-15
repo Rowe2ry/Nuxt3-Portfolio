@@ -19,11 +19,19 @@
                     :style="{'background-color': pageColor}"
                 />
                 <!-- copy -->
-                <div>
+                <div class="py-2">
+                    <!-- main bullet point item -->
                     <p
                         v-html="item.text"
-                        class="font-lato text-cr-dark text-[clamp(1rem,4.75vw,1.5rem)] leading-normal py-1 lg:text-[clamp(1.25rem,2.2vw,2rem)]"
+                        class="font-lato text-cr-dark text-[clamp(1rem,4.75vw,1.5rem)] leading-normal lg:text-[clamp(1.25rem,2.2vw,2rem)]"
                     />
+                    <!-- entity (optional) -->
+                    <p
+                        v-if="item.entity"
+                        class="font-lato text-cer-dark text-[clamp(0.75rem,3.5vw,1.125rem)] leading-tight lg:text-[clamp(0.875rem,1.65vw,1.5rem)]"
+                    >
+                        — {{item.entity}}
+                    </p>
                 </div>
             </li>
         </ul>

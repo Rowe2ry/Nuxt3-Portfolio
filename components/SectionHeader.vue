@@ -1,6 +1,6 @@
 <template>
     <div class="relative w-full bg-cr-light pt-2 md:pt-4">
-        <h3 class="font-museo font-bold text-[1.375rem] leading-none pb-4 md:text-[2rem] lg:text-6xl lg:pb-8">
+        <h3 class="font-museo font-bold text-[1.375rem] text-cr-dark leading-none pb-4 md:text-[2rem] lg:text-6xl lg:pb-8">
             {{title}}
         </h3>
         <!-- horizontal rule -->

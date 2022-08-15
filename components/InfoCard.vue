@@ -47,7 +47,20 @@
                 </section>
             </div>
         </article>
+        <!-- Dark Text and icon for Cyan BG -->
         <div
+            v-if="this.color === 'cyan'"
+            @click="scrollToTop"
+            id="scroll-up"
+            class="w-full flex flex-col items-center justify-center h-[11rem] mb-24 cursor-pointer space-y-6 md:mb-0 md:h-[18.5rem] md:translate-x-[3.5rem]
+            lg:translate-x-0 lg:h-[20rem]"
+        >
+        <img id="up" class="lg:w-16 lg-h-auto" src="/svg/up-drk.svg" alt="arrow/chevron pointing up">
+        <p class="font-museo font-extralight text-4xl text-cr-dark">back to top</p>
+        </div>
+        <!-- white Text and icon for other BG colors -->
+        <div
+            v-else
             @click="scrollToTop"
             id="scroll-up"
             class="w-full flex flex-col items-center justify-center h-[11rem] mb-24 cursor-pointer space-y-6 md:mb-0 md:h-[18.5rem] md:translate-x-[3.5rem]
