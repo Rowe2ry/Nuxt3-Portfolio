@@ -7,20 +7,20 @@
             class="sticky top-0 z-10"
         />
         <!-- unordered list container -->
-        <ul class="w-full mb-16 md:mb-20">
+        <ul class="w-full mb-16 md:mb-20 md:ml-4 lg:ml-10">
             <li
                 v-for="(item, index) in info.listItems"
                 :key="index"
-                class="flex items-center"   
+                class="flex items-start"   
             >
                 <!-- Bullet Point -->
                 <div 
-                    class="h-[7px] w-[7px] rounded-full mr-3 "
+                    class="h-[7px] w-[7px] aspect-square rounded-full mr-3 mt-[min(4.2vw,1.25rem)] md:mt-[1.125rem] md:w-2.5 md:h-2.5 lg:mt-[min(1.67vw,1.5rem)]"
                     :style="{'background-color': pageColor}"
                 />
                 <p
                     v-html="item"
-                    class="font-lato text-cr-dark text-[clamp(1rem,5vw,1.5rem)] leading-normal py-1 lg:text-[clamp(1.25rem,2.2vw,2rem)]"
+                    class="font-lato text-cr-dark text-[clamp(1rem,4.75vw,1.5rem)] leading-normal py-1 lg:text-[clamp(1.25rem,2.2vw,2rem)]"
                 />
             </li>
         </ul>

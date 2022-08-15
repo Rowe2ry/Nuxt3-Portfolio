@@ -6,9 +6,9 @@
         <!-- Card Start -->
         <article
             id="card"
-            class="bg-cr-light rounded-lg w-[92%] mx-auto pt-14 px-4 pb-24
-            md:pt-24 md:pb-32 md:pl-16 md:pr-12 md:w-full md:rounded-l-none md:rounded-r-[3rem]
-            lg:pt-32 lg:pb-44 lg:rounded-none lg:px-36"
+            class="bg-cr-light rounded-lg w-[92%] mx-auto pt-12 px-4 pb-24
+            md:pt-20 md:pb-32 md:pl-16 md:pr-12 md:w-full md:rounded-l-none md:rounded-r-[3rem]
+            lg:pt-28 lg:pb-44 lg:rounded-none lg:px-36"
         >
             <div class="mx-auto max-w-[1600px]">
                 <section
@@ -20,13 +20,13 @@
                     <!-- Decorative Element -even- (desktop only) -->
                     <div
                         v-if="index % 2 === 0"
-                        class="clippedL decoration hidden absolute left-0 top-0 w-20 h-40 -translate-x-36 -translate-y-[calc(50%-0.75rem)] lg:block"
+                        class="clippedL decoration hidden absolute left-0 top-0 w-20 h-40 -translate-x-36 -translate-y-[calc(50%-2.5rem)] lg:block"
                         :style="{'background-color': bgColor}"
                     />
                     <!-- Decorative Element -odd- (desktop only) -->
                     <div
                         v-else
-                        class="clippedR decoration hidden absolute right-0 top-0 w-20 h-40 translate-x-36 -translate-y-1/2 lg:block"
+                        class="clippedR decoration hidden absolute right-0 top-0 w-20 h-40 translate-x-36 -translate-y-[calc(50%-2.5rem)] lg:block"
                         :style="{'background-color': bgColor}"
                     />
                     <!-- Content (tsg = Tech Stack Grid, an optional heading and an array of icons) -->

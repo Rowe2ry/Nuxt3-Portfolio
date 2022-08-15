@@ -1,7 +1,7 @@
 <template>
     <section
-        class="relative w-full h-[calc(100vh-6rem)] min-h-[34rem] overflow-x-hidden
-            md:min-h-screen lg:overflow-hidden"
+        class="relative w-full h-[calc(100vh-6rem)] min-h-[clamp(34rem,181vw,44rem)] overflow-x-hidden
+            md:h-screen lg:min-h-[50rem] lg:overflow-hidden"
         :style="{'background-color': heroColor}"
     >
         <!-- Circuitry backdrop (desktop only) -->
@@ -11,7 +11,7 @@
             alt="computer circruit vector artwork">
         <!-- Main Heading -->
         <h1
-            class="absolute leading-none left-[5.5vw] top-32 text-cr-light font-museo text-[15.5vw] font-bold
+            class="heading-load -translate-x-1/2 opacity-0 absolute leading-none left-[5.5vw] top-32 text-cr-light font-museo text-[15.5vw] font-bold
             md:left-[min(3.5rem,5.5vw)] md:text-8xl md:top-28
             lg:text-[min(9vw,8rem)] lg:top-60 lg:left-24"
         >
@@ -19,7 +19,7 @@
         </h1>
         <!-- Sub-Heading -->
         <h2
-            class="absolute left-[5.625vw] top-[calc(14.5rem+20vw)] uppercase font-museo text-cr-dark text-[8.5vw] font-bold
+            class="sub-heading-load -translate-y-1/2 opacity-0 absolute left-[5.625vw] top-[calc(14.5rem+20vw)] uppercase font-museo text-cr-dark text-[8.5vw] font-bold
             md:left-[min(3.5rem,5.5vw)] md:text-[min(5.2vw,2.5rem)] md:top-60
             lg:top-96 lg:left-24 lg:text-6xl"
             v-html="title"
@@ -29,7 +29,7 @@
             class="trapezoid hidden md:block absolute bg-cr-light w-full h-96 top-56 lg:hidden"
         />
         <!-- Image -->
-        <div class="absolute top-24 right-0 hero__img rounded-full overflow-hidden translate-x-4 shadow-md
+        <div class=" img-load absolute top-24 right-0 hero__img rounded-full overflow-hidden translate-x-4 shadow-md
         md:translate-x-0 md:right-28 md:top-60">
             <img
                 class="object-cover"
@@ -199,6 +199,69 @@ export default {
             transform: scaleX(1) scaleY(1) rotate(-2deg);
         }
     }
+
+    .heading-load {
+        transform-origin: left;
+        animation: fast-left-fade 225ms ease-out 225ms forwards;
+    }
+
+    @keyframes fast-left-fade {
+        0% {
+            transform: translateX(-50%);
+            opacity: 0;
+            filter: blur(4px);
+        }
+
+        100% {
+            transform: translateX(0);
+            opacity: 1;
+            filter: none;
+        }
+    }
+
+    .sub-heading-load {
+        transform-origin: top;
+        animation: fast-top-fade 250ms ease-out 550ms forwards;
+    }
+
+        @keyframes fast-top-fade {
+        0% {
+            transform: translateY(-50%);
+            opacity: 0;
+            filter: blur(4px);
+        }
+
+        100% {
+            transform: translateY(0);
+            opacity: 1;
+            filter: none;
+        }
+    }
+
+    .img-load {
+        transform-origin: right;
+        animation: grow-focus 350ms ease-in-out 225ms forwards;
+        transform: scale(0.5);
+        filter: blur(6px);
+    }
+
+    @keyframes grow-focus {
+        0% {
+            transform: scale(0.5);
+            filter: blur(6px);
+        }
+
+        100% {
+            transform: scale(1);
+            filter: none;
+        }
+    }
+
+    #tagline {
+            opacity: 0;
+            transform: translateY(-50%);
+            animation: fade-down-tag 400ms ease-out 650ms forwards;
+        }
 
     .hero__img {
         width: 42vw;
