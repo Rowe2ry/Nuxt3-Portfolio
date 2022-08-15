@@ -291,6 +291,10 @@ export default {
         #tagline {
             animation: fade-down-tag 400ms ease-out 1100ms forwards;
         }
+
+        .sub-heading-load {
+        text-shadow: 0 0 10px #F3F7FF80;
+    }
     }
 
     @keyframes in-from-the-left {

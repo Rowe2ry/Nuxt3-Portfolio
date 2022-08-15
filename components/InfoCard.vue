@@ -45,6 +45,7 @@
                         :info="section"
                     />
                 </section>
+                <Resume v-if="resume" :color="color"/>
             </div>
         </article>
         <!-- Dark Text and icon for Cyan BG -->
