@@ -6,7 +6,7 @@
     "sections": [
         {
             "sectionType": "wt1",
-            "section": "22S<span class=\"alt-char\">q</span>. New Business LB",
+            "section": "22S<span class=\"alt-char\">q</span>. <span class=\"alt-char\">N</span>e<span class=\"alt-char\">w</span> Business LB",
             "color": "pink",
             "projDesc": "A NUXT microsite S.P.A. serving the 22Squared agency as a \"new business leave behind\" to give to potential clients as a digital business card after initial consultation. The site features various interactive elements, subtle animations, responsive layouts, and modals with a user-controllable carousel. In addition to this, the project has been coded with headless C.M.S. integration in mind (Builder.io)",
             "btnOne": "Visit Website",
