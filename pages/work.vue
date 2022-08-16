@@ -11,7 +11,6 @@
             :content="this.pageData.sections"
             :resume="this.pageData.resume"
         />
-        <Nav/>
     </div>
 </template>
 
@@ -36,7 +35,3 @@
     }
 
 </script>
-
-<style scoped>
-    @import '/css/main.css';
-</style> 
