@@ -64,13 +64,14 @@
             </p>
             <!-- CTA Buttons -->
             <div
-                class="w-full flex flex-col items-center
+                class="w-full flex flex-col items-center z-10
                 md:flex-row md:flex-nowrap md:max-w-[35rem] lg:order-4 lg:-mt-36"
             >
                 <!-- Visit Project Btn -->
                 <div class="w-full">
                     <a
                         :href="info.linkOne"
+                        target="_blank"
                         class="cursor-pointer"
                     >
                         <div
@@ -93,7 +94,7 @@
                         class="cursor-pointer"
                     >
                         <div
-                            class="mx-auto mt-4 w-[min(90%,16rem)] h-8 rounded-full flex items-center justify-center group
+                            class="mx-auto mt-4 w-[min(90%,16rem)] h-8 rounded-full flex items-center justify-center group cursor-pointer
                             md:h-16 md:bg-cr-pink md:border-2 md:border-cr-pink md:hover:bg-transparent md:mt-8"
                         >
                             <p

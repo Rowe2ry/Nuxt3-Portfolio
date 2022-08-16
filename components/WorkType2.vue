@@ -1,7 +1,6 @@
 <template>
     <article
-        class="pb-24 flex flex-col items-center
-        md:pb-36
+        class="flex flex-col items-center
         lg:grid grid-cols-[2fr_1fr] lg:items-start"
     >
         <!-- images -->
@@ -94,7 +93,7 @@
             </p>
             <!-- CTA Buttons -->
             <div
-                class="w-full flex flex-col items-center
+                class="w-full flex flex-col items-center z-10
                 md:flex-row md:flex-nowrap md:max-w-[35rem] lg:order-4 lg:-mt-36"
             >
                 <!-- Visit Project Btn -->

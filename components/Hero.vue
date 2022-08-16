@@ -33,7 +33,7 @@
         md:translate-x-0 md:right-28 md:top-60">
             <img
                 class="object-cover"
-                src="/image/self.PNG"
+                src="/image/self.png"
                 alt="Chris Rowe blck and white headshot over plain background, cropped to face in circle" />
         </div>
         <!-- tagline backing (desktop only) -->
