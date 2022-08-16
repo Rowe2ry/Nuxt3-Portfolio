@@ -185,6 +185,7 @@
             "projDesc": "Complete wireframe and UI/UX for full-featured e-commerce application proposed for Barnes & Noble. App planning includes menus, user flows, notifications, touch points, and unique UI interaction tools. App is constructed to adhere to a brand guide.",
             "btnOne": "See Prototype",
             "linkOne": "https://www.figma.com/proto/t0Xx8CgVhu4p97u1D3ElvZ/B-and-N-FYS-Wireframe?node-id=0%3A1&scaling=scale-down&page-id=0%3A1",
+            "repoAvail": true,
             "btnTwo": "View Figma",
             "linkTwo": "https://www.figma.com/file/t0Xx8CgVhu4p97u1D3ElvZ/B%26N-FYS-Wireframe?node-id=0%3A1",
             "mainImg": "BAN_Wireframe.png",
@@ -207,6 +208,60 @@
                     "icon": "photoshop.svg",
                     "abbr": "Adobe Photoshop",
                     "desc": "Photoshop is a photo editing and raster graphic design software which allows users to create, edit, and manipulate various graphics as well as digital art. It also allows to create and edit raster images with multiple layers in various file formats."
+                }
+            ]
+        },
+        {
+            "sectionType": "wt1",
+            "section": "Portfolio Site",
+            "color": "pink",
+            "projDesc": "This portfolio website. Desiged in Figma, built in Nuxt, and styled using Tailwind, this website you are currently viewing features mobile, tablet, and desktop experiences created from the ground-up with no prebuilt templates or animation effects used. All code and assets are original and are chosen to demonstrate custom UI/UX design and code execution as a package.",
+            "btnOne": "View Figma",
+            "linkOne": "https://www.figma.com/file/9UgW10n1jcehhHpebqjDxS/Portfolio-2022?node-id=0%3A1",
+            "repoAvail": true,
+            "btnTwo": "View Repository",
+            "linkTwo": "https://github.com/Rowe2ry/Nuxt3-Portfolio",
+            "mainImg": "Nuxt3Port.png",
+            "img2": "Nuxt3PortPic2.png",
+            "img3": "Nuxt3PortPic3.png",
+            "techs": [
+                {
+                    "techName": "Vue",
+                    "icon": "vue.svg",
+                    "desc": "an open-source model–view–viewmodel front end JavaScript framework for building user interfaces and single-page applications."
+                },
+                {
+                    "techName": "NUXT",
+                    "icon": "nuxt.svg",
+                    "desc": "a frontend framework built upon Vue. js that offers great development features such as server side rendering, automatically generated routes, improved meta tags managing and SEO improvement."
+                },
+                {
+                    "techName": "Tailwind",
+                    "icon": "tailwind.svg",
+                    "abbr": "Tailwind CSS",
+                    "desc": "a highly customizable utility-first CSS framework for rapidly building custom user interfaces."
+                },
+                {
+                    "techName": "Figma",
+                    "icon": "figma.svg",
+                    "desc": "a collaborative browser-based interface design and prototyping tool."
+                },
+                {
+                    "techName": "Illustrator",
+                    "icon": "illustrator.svg",
+                    "abbr": "Adobe illustrator",
+                    "desc": "a software application for creating drawings, illustrations, and artwork using vector graphics technology."
+                },
+                {
+                    "techName": "Javascript",
+                    "icon": "javascript.svg",
+                    "desc": "a programming language that is one of the core technologies of the World Wide Web, alongside HTML and CSS."
+                },
+                {
+                    "techName": "CSS",
+                    "icon": "css.svg",
+                    "abbr": "Cascading Style Sheets",
+                    "desc": "a style sheet language used for describing the presentation of a document written in a markup language such as HTML."
                 }
             ]
         }
