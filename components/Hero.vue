@@ -78,47 +78,47 @@
 </template>
 
 <script>
-export default {
-    props: {
-        title: {
-            type: String,
-            default: 'Web Developer'
+    export default {
+        props: {
+            title: {
+                type: String,
+                default: 'Web Developer'
+            },
+            tagline: {
+                type: String,
+                default: 'Hi there! Allow me to introduce mself...'
+            },
+            color: {
+                type: String,
+                default: 'cyan'
+            }
         },
-        tagline: {
-            type: String,
-            default: 'Hi there! Allow me to introduce mself...'
+        data() {
+            return {
+                heroColor: '',
+            }
         },
-        color: {
-            type: String,
-            default: 'cyan'
-        }
-    },
-    data() {
-        return {
-            heroColor: '',
-        }
-    },
-    mounted() {
-        switch (this.color) {
-            case 'pink':
-                this.heroColor = '#C500C5';
-                break;
-            case 'gold':
-                this.heroColor = '#EEAB00';
-                break;
-            default:
-                this.heroColor = '#00EAD0';
-        }
-    },
-    methods: {
-        scrollDown() {
-            window.scrollTo({
-                    top: 640,
-                    behavior: 'smooth'
-                });
+        mounted() {
+            switch (this.color) {
+                case 'pink':
+                    this.heroColor = '#C500C5';
+                    break;
+                case 'gold':
+                    this.heroColor = '#EEAB00';
+                    break;
+                default:
+                    this.heroColor = '#00EAD0';
+            }
+        },
+        methods: {
+            scrollDown() {
+                window.scrollTo({
+                        top: 640,
+                        behavior: 'smooth'
+                    });
+            }
         }
     }
-}
 </script>
 
 <style scoped>
