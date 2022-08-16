@@ -1,6 +1,6 @@
 <template>
     <section
-        class="relative w-full h-[calc(100vh-6rem)] min-h-[clamp(34rem,181vw,44rem)] overflow-x-hidden
+        class="relative w-full h-[calc(100vh-6rem)] min-h-[clamp(34rem,150vw,44rem)] overflow-x-hidden
             md:h-screen lg:min-h-[50rem] lg:overflow-hidden"
         :style="{'background-color': heroColor}"
     >
