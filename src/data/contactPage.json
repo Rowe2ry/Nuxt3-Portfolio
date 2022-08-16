@@ -30,7 +30,7 @@
         },
         {
             "sectionType": "con",
-            "section": "Networking",
+            "section": "<span class=\"alt-char\">N</span>etworking",
             "color": "gold",
             "list": [
                 {
@@ -55,7 +55,7 @@
             "section": "Location",
             "color": "gold",
             "icon": "location.svg",
-            "text": "Located in Northeast Atlanta, GA",
+            "text": "Located in Northeast<br> Atlanta, GA",
             "image": "atl.svg"
         }
     ]

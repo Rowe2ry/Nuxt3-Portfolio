@@ -49,9 +49,12 @@
                         v-else-if="section.sectionType === 'wt1'"
                         :info="section"
                     />
-                    <!-- Content (wt2 = work type 2, heading, 6 thumbnails, tech stack icons, description, and 2 links) -->
-                    <WorkType2
-                        v-else-if="section.sectionType === 'wt2'"
+                    <ContactMethod
+                        v-else-if="section.sectionType === 'con'"
+                        :info="section"
+                    />
+                    <Location
+                        v-else-if="section.sectionType === 'loc'"
                         :info="section"
                     />
                 </section>
