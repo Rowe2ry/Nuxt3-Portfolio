@@ -179,7 +179,7 @@
             ]
         },
         {
-            "sectionType": "wt2",
+            "sectionType": "wt1",
             "section": "<span class=\"alt-char2\">M</span>obile App Wireframe",
             "color": "pink",
             "projDesc": "Complete wireframe and UI/UX for full-featured e-commerce application proposed for Barnes & Noble. App planning includes menus, user flows, notifications, touch points, and unique UI interaction tools. App is constructed to adhere to a brand guide.",
@@ -190,9 +190,6 @@
             "mainImg": "BAN_Wireframe.png",
             "img2": "WF-Pic2.png",
             "img3": "WF-Pic3.png",
-            "img4": "WF-Pic4.png",
-            "img5": "WF-Pic5.png",
-            "img6": "WF-Pic6.png",
             "techs": [
                 {
                     "techName": "Figma",
