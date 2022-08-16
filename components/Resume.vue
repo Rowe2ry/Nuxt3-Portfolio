@@ -3,7 +3,7 @@
         <div
             id="resume"
             class="mx-auto w-64 h-16 rounded-full flex items-center justify-center group"
-            :style="this.styles"
+            :style="styles"
         >
             <img
                 class="mr-4 group-hover:hidden"
