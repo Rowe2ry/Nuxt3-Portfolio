@@ -132,13 +132,14 @@
             "listItems": [
                 "Front and back end development",
                 "Set up & configure databases",
-                "Create full C.R.U.D. APIs",
-                "Write unit tests for T.D.D.",
+                "Create full <abbr title=\"Create, Read, Update, Delete\">C.R.U.D.</abbr> APIs",
+                "Write unit tests for <abbr title=\"Test Driven Development\">T.D.D.</abbr>",
                 "Protect data with encryption",
+                "AGILE & SCRUM workflow methodology",
                 "Comply with ADA accessibility",
                 "Configure JWTs for authorization",
                 "Create fully responsive layouts",
-                "Wireframe & UI/UX design",
+                "Wireframe & <abbr title=\"User Interface & User Experience\">UI/UX</abbr> design",
                 "Optimize code for performance",
                 "Asset creation/editing capability"
             ]

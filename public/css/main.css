@@ -41,3 +41,8 @@ html, body { scroll-behavior: smooth; }
 .alt-char2 {
     font-feature-settings: "ss02" !important;
 }
+
+abbr {
+    text-decoration: none;
+    cursor: progress;
+}
