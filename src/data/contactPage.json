@@ -30,7 +30,7 @@
         },
         {
             "sectionType": "con",
-            "section": "<span class=\"alt-char\">N</span>etworking",
+            "section": "<span class=\"alt-char\">N</span>et<span class=\"alt-char\">w</span>orking",
             "color": "gold",
             "list": [
                 {

@@ -136,8 +136,8 @@
                 "Write unit tests for <abbr title=\"Test Driven Development\">T.D.D.</abbr>",
                 "Protect data with encryption",
                 "AGILE & SCRUM workflow methodology",
-                "Comply with ADA accessibility",
-                "Configure JWTs for authorization",
+                "Comply with <abbr title=\"Americans with Disabilities Act of 1990\">ADA</abbr> accessibility",
+                "Configure <abbr title=\"JSON Web Tokens\">JWTs</abbr> for authorization",
                 "Create fully responsive layouts",
                 "Wireframe & <abbr title=\"User Interface & User Experience\">UI/UX</abbr> design",
                 "Optimize code for performance",
@@ -150,18 +150,18 @@
             "color": "cyan",
             "listItems": [
                 {
-                    "text": "Certified by Georgia Tech Institute of Technology for web development"
+                    "text": "Full-Stack Web development certification issued by Georgia Institute of Technology"
                 },
                 {
                     "text": "Developed digital print automation tools to reduce labor costs",
                     "entity": "Advanced Color Imaging"
                 },
                 {
-                    "text": "Wrote complete codebase for a marketing agency project which received a 100% performance rating in Google Lighthouse testing and passed extensive QA testing",
+                    "text": "Wrote complete codebase for a marketing agency project which received a 100% performance rating in Google Lighthouse testing and passed extensive <abbr title=\"Quality Assurance\">QA</abbr> testing",
                     "entity": "22Squared"
                 },
                 {
-                    "text": "Designed & unveiled UI/UX prototype in live demo to executive team +120 employees with unanimous positive feedback",
+                    "text": "Designed & unveiled <abbr title=\"User Interface & User Experience\">UI/UX</abbr> prototype in live demo to executive team +120 employees with unanimous positive feedback",
                     "entity": "22Squared"
                 }
 

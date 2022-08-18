@@ -1,7 +1,7 @@
 <template>
     <section
         class="relative w-full h-[calc(100vh-6rem)] min-h-[clamp(34rem,150vw,44rem)] overflow-x-hidden
-            md:h-screen lg:min-h-[50rem] lg:overflow-hidden"
+            md:h-screen md:max-h-[55rem] lg:min-h-[50rem] lg:overflow-hidden"
         :style="{'background-color': heroColor}"
     >
         <!-- Circuitry backdrop (desktop only) -->
