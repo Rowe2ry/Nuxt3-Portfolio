@@ -48,6 +48,7 @@
                     <WorkType1
                         v-else-if="section.sectionType === 'wt1'"
                         :info="section"
+                        :index="index"
                     />
                     <ContactMethod
                         v-else-if="section.sectionType === 'con'"

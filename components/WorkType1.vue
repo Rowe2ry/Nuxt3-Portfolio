@@ -2,13 +2,15 @@
     <article
         class="pb-24 flex flex-col items-center
         md:pb-36
-        lg:grid grid-cols-[2fr_1fr] lg:items-start"
+        lg:grid lg:items-start"
+        :class="index % 2 === 0 ? 'lg:grid-cols-[2fr_1fr]':'lg:grid-cols-[1fr_2fr]'"
     >
         <!-- images -->
         <div
-            class="w-full relative
+            class="w-full relative z-20
             md:aspect-video md:w-11/12 md:max-w-[575px]
-            lg:order-2 lg:aspect-auto"
+            lg:aspect-auto"
+            :class="index % 2 === 0 ? 'lg:order-2': 'lg:order-1 lg:pr-8'"
         >
             <!-- Main thumbnail -->
             <a :href="info.linkOne" target="_blank" class="cursor-pointer">
@@ -42,7 +44,10 @@
             </a>
         </div>
         <!-- all copy section (flex container on lg) -->
-        <div class="lg:flex lg:flex-col lg:order-1 lg:items-center">
+        <div
+            class="lg:flex lg:flex-col lg:items-center"
+            :class="index % 2 === 0 ? 'lg:order-1':'lg:order-2'"
+        >
             <!-- Heading -->
             <SectionHeader
                 :title="info.section"
@@ -138,8 +143,11 @@
             info: {
                 type: Object,
                 required: true
+            },
+            index: {
+                type: Number
             }
-        }    
+        }  
     }
 </script>
 
