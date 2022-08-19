@@ -53,6 +53,7 @@
                     <ContactMethod
                         v-else-if="section.sectionType === 'con'"
                         :info="section"
+                        :index="index"
                     />
                     <Location
                         v-else-if="section.sectionType === 'loc'"

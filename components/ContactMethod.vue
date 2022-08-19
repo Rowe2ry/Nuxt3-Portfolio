@@ -11,7 +11,7 @@
             <li
                 v-for="(link, index) in info.list"
                 :key="index"
-                class="my-8"
+                class="my-8 lg:my-12"
             >
                 <a
                     :href="link.link"
@@ -19,11 +19,12 @@
                     class="cursor-pointer flex items-center"
                 >
                     <!-- Icon -->
-                    <div class="aspect-square w-8 h-8 mr-4">
+                    <div class="aspect-square w-8 h-8 mr-4 lg:w-14 lg:h-14 lg:mr-6">
                         <img
                             :src="`/svg/${link.icon}`"
                             :alt="`An icon used to represent contacting me by ${info.section}`"
                             class="h-full w-auto mx-auto"
+                            :class="link.icon === 'indeed.svg' ? '-translate-x-[17%]':''"
                         >
                     </div>
                     <!-- Text -->
@@ -49,6 +50,9 @@
                 type: String,
                 default: 'cyan'
             },
+            index: {
+                type: Number
+            }
         },
         data() {
             return {

@@ -7,7 +7,8 @@
         </h3>
         <!-- horizontal rule -->
         <div
-            class="ml-3 mb-6 w-[min(70vw,17.25rem)] h-[2px] rounded-full lg:mb-14 lg:h-[4px] lg:w-[25rem]"
+            class="ml-3 mb-6 w-[min(70vw,17.25rem)] h-[2px] rounded-full lg:mb-14 lg:h-[4px]"
+            :class="this.$route.fullPath !== '/contact' ? 'lg:w-[25rem]':''"
             :style="{'background-color': pageColor}"
         />
     </div>

@@ -9,10 +9,10 @@
         <!-- unordered list container -->
         <ul class="w-full mb-16 md:mb-20 md:ml-4 lg:ml-10">
             <div
-                class="my-8 flex items-center"
+                class="my-8 flex items-center lg:my-12"
             >
                 <!-- Icon -->
-                <div class="aspect-square w-8 h-8 mr-4">
+                <div class="aspect-square w-8 h-8 mr-4  lg:w-14 lg:h-14 lg:mr-6">
                     <img
                         :src="`/svg/${info.icon}`"
                         :alt="`An icon used to represent contacting me by ${info.section}`"
@@ -27,6 +27,12 @@
                 />
             </div>
         </ul>
+        <!-- Desktop only image -->
+        <img
+            src="/svg/atl.svg"
+            alt="Sinlge color vector graphic showing syline of Atlanta"
+            class="hidden lg:block w-2/3 mx-auto pb-20"
+        >
     </div>
 </template>
 
