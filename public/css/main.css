@@ -6,6 +6,7 @@
     font-family: "MuseoModerno";
     src: url("/fonts/MuseoModerno-Bold.ttf");
     font-weight: 700;
+    font-display: swap;
 }
 
 
@@ -13,23 +14,27 @@
     font-family: "MuseoModerno";
     src: url("/fonts/MuseoModerno-ExtraLight.ttf");
     font-weight: 200;
+    font-display: swap;
 }
 
 @font-face {
     font-family: "Lato";
     src: url("/fonts/Lato-Regular.ttf");
     font-weight: 400;
+    font-display: swap;
 }
 
 @font-face {
     font-family: "Lato";
     src: url("/fonts/Lato-Bold.ttf");
     font-weight: 700;
+    font-display: swap;
 }
 @font-face {
     font-family: "Lato";
     src: url("/fonts/Lato-Black.ttf");
     font-weight: 900;
+    font-display: swap;
 }
 
 html, body { scroll-behavior: smooth; }
