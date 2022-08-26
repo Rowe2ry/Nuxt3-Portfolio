@@ -29,7 +29,7 @@
             class="trapezoid hidden md:block absolute bg-cr-light w-full h-96 top-56 lg:hidden"
         />
         <!-- Image -->
-        <div class=" img-load absolute top-24 right-0 hero__img rounded-full overflow-hidden translate-x-4 shadow-md
+        <div class=" img-load hero__img absolute top-24 right-0 rounded-full overflow-hidden translate-x-4 shadow-md
         md:translate-x-0 md:right-28 md:top-60">
             <img
                 class="object-cover"
@@ -266,6 +266,8 @@
     .hero__img {
         width: 42vw;
         height: 42vw;
+        max-width: 420px;
+        max-height: 420px;
     }
 
     .trapezoid {
