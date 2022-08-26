@@ -14,9 +14,9 @@
             "repoAvail": false,
             "btnTwo": "Private Repository",
             "btnTwoDesc": "contact for code info",
-            "mainImg": "NBLB.png",
-            "img2": "NBLB-Pic2.png",
-            "img3": "NBLB-Pic3.png",
+            "mainImg": "NBLB.webp",
+            "img2": "NBLB-Pic2.webp",
+            "img3": "NBLB-Pic3.webp",
             "techs": [
                 {
                     "techName": "Vue",
@@ -74,9 +74,9 @@
             "repoAvail": true,
             "btnTwo": "View Repository",
             "linkTwo": "https://github.com/jdmill/devdoc",
-            "mainImg": "DevDr.png",
-            "img2": "DevDocPic2.png",
-            "img3": "DevDocPic3.png",
+            "mainImg": "DevDr.webp",
+            "img2": "DevDocPic2.webp",
+            "img3": "DevDocPic3.webp",
             "techs": [
                 {
                     "techName": "MongoDB",
@@ -127,9 +127,9 @@
             "repoAvail": true,
             "btnTwo": "View Repository",
             "linkTwo": "https://github.com/Rowe2ry/Overdrive-Automotive-School",
-            "mainImg": "Overdrive.png",
-            "img2": "OverdrivePic2.png",
-            "img3": "OverdrivePic3.png",
+            "mainImg": "Overdrive.webp",
+            "img2": "OverdrivePic2.webp",
+            "img3": "OverdrivePic3.webp",
             "techs": [
                 {
                     "techName": "SQL",
@@ -188,9 +188,9 @@
             "repoAvail": true,
             "btnTwo": "View Figma",
             "linkTwo": "https://www.figma.com/file/t0Xx8CgVhu4p97u1D3ElvZ/B%26N-FYS-Wireframe?node-id=0%3A1",
-            "mainImg": "BAN_Wireframe.png",
-            "img2": "WF-Pic2.png",
-            "img3": "WF-Pic3.png",
+            "mainImg": "BAN_Wireframe.webp",
+            "img2": "WF-Pic2.webp",
+            "img3": "WF-Pic3.webp",
             "techs": [
                 {
                     "techName": "Figma",
@@ -221,9 +221,9 @@
             "repoAvail": true,
             "btnTwo": "View Repository",
             "linkTwo": "https://github.com/Rowe2ry/Nuxt3-Portfolio",
-            "mainImg": "Nuxt3Port.png",
-            "img2": "Nuxt3PortPic2.png",
-            "img3": "Nuxt3PortPic3.png",
+            "mainImg": "Nuxt3Port.webp",
+            "img2": "Nuxt3PortPic2.webp",
+            "img3": "Nuxt3PortPic3.webp",
             "techs": [
                 {
                     "techName": "Vue",

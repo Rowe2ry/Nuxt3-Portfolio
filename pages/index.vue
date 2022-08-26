@@ -20,8 +20,12 @@
     export default {
         head: {
             titleTemplate: 'Chris Rowe',
+            htmlAttrs: {
+                lang: 'en'
+            },
             meta: [
-                { name: 'description', content: 'My portfolio.' }
+                { name: 'description', content: 'My portfolio.' },
+                { name: 'viewport', content: 'width=device-width, initial-scale=1' }
             ],
             link: [
                 { rel: "icon", type: "image/x-icon", href: "/favicon.ico" },
