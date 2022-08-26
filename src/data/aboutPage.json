@@ -73,6 +73,12 @@
                     "desc": "a frontend framework built upon Vue. js that offers great development features such as server side rendering, automatically generated routes, improved meta tags managing and SEO improvement."
                 },
                 {
+                    "techName": "Angular",
+                    "icon": "angular.svg",
+                    "abbr": "Angular",
+                    "desc": "a TypeScript-based free and open-source web application framework led by the Angular Team at Google and by a community of individuals and corporations."
+                },
+                {
                     "techName": "Tailwind",
                     "icon": "tailwind.svg",
                     "abbr": "Tailwind CSS",
@@ -102,6 +108,12 @@
                     "desc": "a proposed Internet standard for creating data with optional signature and/or optional encryption whose payload holds JSON that asserts some number of claims."
                 },
                 {
+                    "techName": "Encryption",
+                    "icon": "encryption.svg",
+                    "abbr": "Data Encryption",
+                    "desc": "a process which translates data into another form, or code, so that only people with access to a secret key (formally called a decryption key) or password can read it."
+                },
+                {
                     "techName": "Typescript",
                     "icon": "typescript.svg",
                     "desc": "a programming language developed and maintained by Microsoft. It is a strict syntactical superset of JavaScript and adds optional static typing to the language. It is designed for the development of large applications and transpiles to JavaScript."
@@ -121,7 +133,13 @@
                     "techName": "PWAs",
                     "icon": "pwa.svg",
                     "abbr": "Progressive Web Applications",
-                    "desc": "a type of application software delivered through the web, built using common web technologies including HTML, CSS, JavaScript, and WebAssembly. The end result is a web application that looks and behaves as if it were a native application"
+                    "desc": "a type of application software delivered through the web, built using common web technologies including HTML, CSS, JavaScript, and WebAssembly. The end result is a web application that looks and behaves as if it were a native application."
+                },
+                {
+                    "techName": "Webpack",
+                    "icon": "webpack.svg",
+                    "abbr": "Webpack",
+                    "desc": "a free and open-source module bundler for JavaScript. It can transform front-end assets such as HTML, CSS, and images if the corresponding loaders are included. Webpack takes modules with dependencies and generates static assets representing those modules."
                 }
             ]
         },

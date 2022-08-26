@@ -1,6 +1,6 @@
 <template>
     <div
-        :class="count === 20? 'hidden flex-col items-center justify-center w-full h-full pb-5 lg:flex' : 'flex flex-col items-center justify-center w-full h-full pb-5'"
+        class="flex flex-col items-center justify-center w-full h-full pb-5"
     >
         <div class="w-10 h-10 flex items-center justify-center group md:w-14 md:h-14">
             <img
