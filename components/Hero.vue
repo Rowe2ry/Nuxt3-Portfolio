@@ -67,7 +67,7 @@
             group-hover:translate-y-0 group-hover:opacity-100">
                 scroll
             </p>
-            <img class="bouncy lg:w-12 lg-h-auto" src="/svg/down.svg" alt="chevron arrow pointing down">
+            <img class="bouncy lg:w-12 lg:h-auto" src="/svg/down.svg" alt="chevron arrow pointing down">
             <p class="text-cr-light w-24 pl-4 uppercase font-lato font-black text-xl duration-300 translate-y-full opacity-0 group-hover:translate-y-0
             lg:text-3xl lg:pl-20 lg:w-48
             group-hover:opacity-100">

@@ -5,6 +5,7 @@
         <div class="w-10 h-10 flex items-center justify-center group md:w-14 md:h-14">
             <img
                 class="md:scale-125 lg:scale-150 lg:cursor-progress"
+                loading="lazy"
                 :src="`/svg/techStackIcons/${color}/${tech.icon}`"
                 :alt="`Brand icon for the ${tech.techName} technology.`"
             />

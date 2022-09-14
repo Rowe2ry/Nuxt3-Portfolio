@@ -20,6 +20,7 @@
                     lg:left-auto lg:bottom-auto lg:relative lg:w-11/12 lg:mr-0 lg:-mb-6 lg:mt-32"
                     :src="`/image/${info.mainImg}`"
                     :alt="`Screenshot of the ${info.section}project.`"
+                    loading="lazy"
                 />
             </a>
             <!-- Image 2 -->
@@ -30,6 +31,7 @@
                     lg:w-3/4 lg:ml-0 lg:mr-auto"
                     :src="`/image/${info.img2}`"
                     :alt="`Screenshot of the ${info.section}project.`"
+                    loading="lazy"
                 />
             </a>
             <!-- Image 3 -->
@@ -40,6 +42,7 @@
                     lg:-mr-6 lg:w-1/2 lg:-translate-y-1/4"
                     :src="`/image/${info.img3}`"
                     :alt="`Screenshot of the ${info.section}project.`"
+                    loading="lazy"
                 />
             </a>
         </div>
