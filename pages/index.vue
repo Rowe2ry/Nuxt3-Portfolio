@@ -15,7 +15,7 @@
 </template>
 
 <script>
-    import data from '~/src/data/aboutPage.json';
+    import data from '~/static/data/aboutPage.json';
     
     export default {
         head: {

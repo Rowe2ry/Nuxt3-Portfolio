@@ -15,7 +15,7 @@
 </template>
 
 <script>
-    import data from '~/src/data/contactPage.json';
+    import data from '~/static/data/contactPage.json';
     
     export default {
         head: {

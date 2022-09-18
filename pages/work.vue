@@ -15,7 +15,7 @@
 </template>
 
 <script>
-    import data from '~/src/data/workPage.json';
+    import data from '~/static/data/workPage.json';
     
     export default {
         head: {

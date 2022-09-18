@@ -1,5 +1,6 @@
 <template>
     <section
+        title="Info Card Section"
         class="w-full md:pr-28 lg:px-0"
         :style="{'background-color': bgColor}"
     >
@@ -16,6 +17,7 @@
                     v-for="(section, index) in content"
                     :key="index"
                     :id="section.section"
+                    :title="section.section"
                 >
                     <!-- Decorative Element -even- (desktop only) -->
                     <div

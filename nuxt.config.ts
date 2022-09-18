@@ -8,5 +8,5 @@ export default defineNuxtConfig({
     modules: [
       '@nuxtjs/tailwindcss'
     ],
-    ssr: false
+    ssr: false // try to fix this, should work with "true"
   })

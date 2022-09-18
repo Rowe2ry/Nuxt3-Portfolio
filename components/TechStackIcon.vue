@@ -22,16 +22,21 @@
                 class="w-2/3 h-[2px] rounded-full my-4"
                 :style="{'background-solor': bgColor}"
             ></div>
-            <p class="font-lato text-cr-dark font-normal">
+            <p
+            title="Technology Description"
+            class="font-lato text-cr-dark font-normal"
+            >
                 {{tech.desc}}
             </p>
         </div>
         </div>
         <p
+            class="font-lato font-bold text-[min(0.875rem,3.7vw)] text-center whitespace-nowrap
+            md:text-[min(2.5vw,1.125rem)] "
             :class="color === 'pink' ?
-            'font-lato font-bold text-[min(0.875rem,3.7vw)] text-center whitespace-nowrap md:text-[min(2.5vw,1.125rem)] lg:text-[min(1.4vw,1.5rem)]'
+            'lg:text-[min(1.4vw,1.5rem)]'
             :
-            'font-lato font-bold text-[min(0.875rem,3.7vw)] text-center whitespace-nowrap md:text-[min(2.5vw,1.125rem)] lg:text-2xl'"
+            'lg:text-2xl'"
         >
             {{tech.techName}}
         </p>
@@ -68,20 +73,6 @@
                     break;
                 default:
                     this.bgColor = '#00EAD0';
-            }
-        },
-        computed: {
-            stylesOne() {
-                return {
-                    'background-color': this.bgColor,
-                    'border' : `4px solid ${this.bgColor}`
-                }
-            },
-            stylesTwo() {
-                return {
-                    'background-color': this.bgColor,
-                    'border' : `4px solid ${this.bgColor}`
-                }
             }
         }
     }

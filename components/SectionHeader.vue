@@ -1,5 +1,5 @@
 <template>
-    <div class="relative w-full bg-cr-light pt-2 md:pt-4">
+    <header class="relative w-full bg-cr-light pt-2 md:pt-4">
         <h3
             class="font-museo font-bold text-[1.375rem] text-cr-dark leading-none pb-4 md:text-[2rem] lg:text-6xl lg:pb-8"
             v-html="title"
@@ -8,10 +8,10 @@
         <!-- horizontal rule -->
         <div
             class="ml-3 mb-6 w-[min(70vw,17.25rem)] h-[2px] rounded-full lg:mb-14 lg:h-[4px]"
-            :class="this.$route.fullPath !== '/contact' ? 'lg:w-[25rem]':''"
+            :class="$route.fullPath !== '/contact' ? 'lg:w-[25rem]':''"
             :style="{'background-color': pageColor}"
         />
-    </div>
+    </header>
 
 </template>
 
