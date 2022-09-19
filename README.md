@@ -18,7 +18,7 @@ I learned ao muchdoing this project. I implimented generating reusable componrnt
 ## Table of Contents  
 * [Installation](#installation)  
 * [Usage](#usage)  
-* [Updating] (#updating)
+* [Updating](#updating)
 * [License](#license)  
 * [Contributing](#contributing)  
 * [Tests](#tests)  
