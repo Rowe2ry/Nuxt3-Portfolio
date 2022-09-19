@@ -1,5 +1,7 @@
 # Chris Rowe Portfolio Site  
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+
+![Portfolio Screenshot](./public/image/Nuxt3Port.webp)
 ## Description  
 A Nuxt3 Portfolio website to deomnstrate front end development skills.  
 
