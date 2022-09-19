@@ -10,6 +10,7 @@
         <ul class="w-full mb-16 md:mb-20 md:ml-4 lg:ml-10">
             <li
                 v-for="(item, index) in info.listItems"
+                :title="item.text"
                 :key="index"
                 class="flex items-start"   
             >

@@ -1,5 +1,6 @@
 <template>
     <section
+        :title="`Hero Section for Chris Rowe's portfolio discussing: ${simplename ? simplename : page}`"
         class="relative w-full h-[calc(100vh-6rem)] min-h-[clamp(34rem,150vw,44rem)] overflow-x-hidden
             md:h-screen md:max-h-[55rem] lg:min-h-[50rem] lg:max-h-[80rem] lg:overflow-hidden"
         :style="{'background-color': heroColor}"
@@ -22,7 +23,7 @@
             class="sub-heading-load -translate-y-1/2 opacity-0 absolute left-[5.625vw] top-[calc(14.5rem+20vw)] uppercase font-museo text-cr-dark text-[8.5vw] font-bold
             md:left-[min(3.5rem,5.5vw)] md:text-[min(5.2vw,2.5rem)] md:top-60
             lg:top-96 lg:left-24 lg:text-6xl"
-            v-html="title"
+            v-html="page"
         />
         <!-- Taper (tablet only) -->
         <div 
@@ -80,9 +81,12 @@
 <script>
     export default {
         props: {
-            title: {
+            page: {
                 type: String,
                 default: 'Web Developer'
+            },
+            simplename: {
+                type: String
             },
             tagline: {
                 type: String,

@@ -8,7 +8,7 @@
             <img
                 class="mr-4 group-hover:hidden"
                 :src="`/svg/${color === 'cyan' ? 'resume-drk':'resume'}.svg`"
-                alt="Icon representing a document page"
+                alt="Icon representing a document page."
             />
             <img
                 v-if="color === 'gold'"

@@ -22,7 +22,7 @@
                     <div class="aspect-square w-8 h-8 mr-4 lg:w-14 lg:h-14 lg:mr-6">
                         <img
                             :src="`/svg/${link.icon}`"
-                            :alt="`An icon used to represent contacting me by ${info.section}`"
+                            :alt="`An icon used to represent contacting me by ${info.plainName ? info.plainName : info.section} via`"
                             class="h-full w-auto mx-auto"
                             :class="link.icon === 'indeed.svg' ? '-translate-x-[17%]':''"
                         >

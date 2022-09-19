@@ -1,5 +1,6 @@
 {
     "pageTitle": "co<span class=\"alt-char\">n</span>tact <span class=\"alt-char2\">m</span>e",
+    "plainTitle": "Contact Me",
     "tagline": "<p style=\"margin-bottom:1.5em\">Let’s have a chat sometime...</p>",
     "color": "gold",
     "resume": true,
@@ -31,6 +32,7 @@
         {
             "sectionType": "con",
             "section": "<span class=\"alt-char\">N</span>et<span class=\"alt-char\">w</span>orking",
+            "plainName": "Networking",
             "color": "gold",
             "list": [
                 {

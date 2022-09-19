@@ -1,9 +1,10 @@
 <template>
     <div>
         <Hero
-            :title="this.pageData.pageTitle"
-            :tagline="this.pageData.tagline"
-            :color="this.pageData.color"
+            :page="pageData.pageTitle"
+            :simplename="pageData.plainTitle ? pageData.plainTitle : pageData.pageTitle"
+            :tagline="pageData.tagline"
+            :color="pageData.color"
         />
         <InfoCard
             id="infoCard"

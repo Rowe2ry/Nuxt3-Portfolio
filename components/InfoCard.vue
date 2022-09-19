@@ -6,6 +6,7 @@
     >
         <!-- Card Start -->
         <article
+            title="Info card containing all non-hero page content for this page"
             id="card"
             class="bg-cr-light rounded-lg w-[92%] mx-auto pt-12 px-4 pb-24
             md:pt-20 md:pb-32 md:pl-16 md:pr-12 md:w-full md:rounded-l-none md:rounded-r-[3rem]
@@ -17,7 +18,7 @@
                     v-for="(section, index) in content"
                     :key="index"
                     :id="section.section"
-                    :title="section.section"
+                    :title="section.plainName ? section.plainName : section.section"
                 >
                     <!-- Decorative Element -even- (desktop only) -->
                     <div
@@ -66,27 +67,31 @@
             </div>
         </article>
         <!-- Dark Text and icon for Cyan BG -->
-        <div
+        <button
             v-if="this.color === 'cyan'"
             @click="scrollToTop"
+            @keydown.enter="scrollToTop"
+            title="Select this and press enter to return to the top of the page"
             id="scroll-up"
             class="w-full flex flex-col items-center justify-center h-[11rem] mb-24 cursor-pointer space-y-6 md:mb-0 md:h-[18.5rem] md:translate-x-[3.5rem]
             lg:translate-x-0 lg:h-[20rem]"
         >
         <img id="up" class="lg:w-16 lg-h-auto" src="/svg/up-drk.svg" alt="arrow/chevron pointing up">
         <p class="font-museo font-extralight text-4xl text-cr-dark">back to top</p>
-        </div>
+        </button>
         <!-- white Text and icon for other BG colors -->
-        <div
+        <button
             v-else
             @click="scrollToTop"
+            @keydown.enter="scrollToTop"
+            title="Select this and press enter to return to the top of the page"
             id="scroll-up"
             class="w-full flex flex-col items-center justify-center h-[11rem] mb-24 cursor-pointer space-y-6 md:mb-0 md:h-[18.5rem] md:translate-x-[3.5rem]
             lg:translate-x-0 lg:h-[20rem]"
         >
         <img id="up" class="lg:w-16 lg-h-auto" src="/svg/up.svg" alt="arrow/chevron pointing up">
         <p class="font-museo font-extralight text-4xl text-cr-light">back to top</p>
-        </div>
+        </button>
     </section>
 </template>
 

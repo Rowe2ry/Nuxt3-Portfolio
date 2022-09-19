@@ -1,5 +1,5 @@
 <template>
-    <main>
+    <main title="Personal Front End Web Development Portfolio for Chris Rowe">
         <NuxtPage />
         <Nav />
     </main>

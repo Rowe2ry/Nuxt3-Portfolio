@@ -31,6 +31,7 @@
         </div>
         </div>
         <p
+            title="Technology Name"
             class="font-lato font-bold text-[min(0.875rem,3.7vw)] text-center whitespace-nowrap
             md:text-[min(2.5vw,1.125rem)] "
             :class="color === 'pink' ?

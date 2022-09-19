@@ -1,7 +1,8 @@
 <template>
     <div>
         <Hero
-            :title="pageData.pageTitle"
+            :page="pageData.pageTitle"
+            :simplename="pageData.plainTitle ? pageData.plainTitle : pageData.pageTitle"
             :tagline="pageData.tagline"
             :color="pageData.color"
         />
