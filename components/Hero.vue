@@ -12,7 +12,7 @@
             alt="computer circruit vector artwork">
         <!-- Main Heading -->
         <h1
-            class="heading-load -translate-x-1/2 opacity-0 absolute leading-none left-[5.5vw] top-32 text-cr-light font-museo text-[15.5vw] font-bold
+            class="heading-load -translate-x-1/2 opacity-0 absolute leading-none left-[5.5vw] top-[min(2rem,10vw)] text-cr-light font-museo text-[15.5vw] font-bold
             md:left-[min(3.5rem,5.5vw)] md:text-8xl md:top-28
             lg:text-[min(9vw,8rem)] lg:top-60 lg:left-24"
         >
