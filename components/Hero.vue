@@ -1,6 +1,5 @@
 <template>
     <section
-        :title="`Hero Section for Chris Rowe's portfolio discussing: ${simplename ? simplename : page}`"
         class="relative w-full h-[calc(100vh-6rem)] min-h-[clamp(34rem,150vw,44rem)] overflow-x-hidden
             md:h-screen md:max-h-[55rem] lg:min-h-[50rem] lg:max-h-[80rem] lg:overflow-hidden"
         :style="{'background-color': heroColor}"

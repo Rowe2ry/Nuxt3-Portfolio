@@ -1,12 +1,10 @@
 <template>
     <section
-        title="Info Card Section"
         class="w-full md:pr-28 lg:px-0"
         :style="{'background-color': bgColor}"
     >
         <!-- Card Start -->
         <article
-            title="Info card containing all non-hero page content for this page"
             id="card"
             class="bg-cr-light rounded-lg w-[92%] mx-auto pt-12 px-4 pb-24
             md:pt-20 md:pb-32 md:pl-16 md:pr-12 md:w-full md:rounded-l-none md:rounded-r-[3rem]
@@ -71,7 +69,6 @@
             v-if="this.color === 'cyan'"
             @click="scrollToTop"
             @keydown.enter="scrollToTop"
-            title="Select this and press enter to return to the top of the page"
             id="scroll-up"
             class="w-full flex flex-col items-center justify-center h-[11rem] mb-24 cursor-pointer space-y-6 md:mb-0 md:h-[18.5rem] md:translate-x-[3.5rem]
             lg:translate-x-0 lg:h-[20rem]"
@@ -84,7 +81,6 @@
             v-else
             @click="scrollToTop"
             @keydown.enter="scrollToTop"
-            title="Select this and press enter to return to the top of the page"
             id="scroll-up"
             class="w-full flex flex-col items-center justify-center h-[11rem] mb-24 cursor-pointer space-y-6 md:mb-0 md:h-[18.5rem] md:translate-x-[3.5rem]
             lg:translate-x-0 lg:h-[20rem]"

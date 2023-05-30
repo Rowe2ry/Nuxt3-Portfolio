@@ -2,7 +2,6 @@
     <div class="relative">
         <SectionHeader
             v-if="info.section"
-            :title="info.section"
             :color="info.color"
             class="sticky top-0 z-10"
         />
@@ -10,7 +9,6 @@
         <ul class="w-full mb-16 md:mb-20 md:ml-4 lg:ml-10">
             <li
                 v-for="(item, index) in info.listItems"
-                :title="item"
                 :key="index"
                 class="flex items-start"   
             >

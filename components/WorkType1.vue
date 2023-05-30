@@ -1,6 +1,5 @@
 <template>
     <article
-        :title="`Case study showcasing the ${info.plainName? info.plainName : info.section} project`"
         class="pb-24 flex flex-col items-center
         md:pb-36
         lg:grid lg:items-start"
@@ -54,7 +53,6 @@
         >
             <!-- Heading -->
             <SectionHeader
-                :title="info.section"
                 :color="info.color"
                 class="lg:order-1"
             />
@@ -65,7 +63,6 @@
             />
             <!-- Project Description -->
             <p
-                title="Project Description"
                 class="-mt-16 px-4 font-lato font-normal text-cr-dark text-[clamp(1rem,4.75vw,1.25rem)]
                 md:px-0
                 lg:mt-0 lg:mb-10 lg:text-[clamp(1.25rem,2.2vw,2rem)] lg:pl-10 lg:pr-16 lg:order-2"
@@ -123,14 +120,12 @@
                     >
                         <div class="text-center">
                             <p
-                                title="Inactive button link text"
                                 class="font-lato font-black text-xl text-[#808080]
                                 md:text-cr-light md:text-[min(2.72vw,1.25rem)]"
                             >
                                 {{info.btnTwo}}
                             </p>
                             <p
-                                title="Inactive button link reason"
                                 class="font-lato font-black text-base text-[#808080]
                                 md:text-cr-light"
                             >
