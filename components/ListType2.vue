@@ -2,6 +2,7 @@
     <div class="relative">
         <SectionHeader
             v-if="info.section"
+            :title="info.section"
             :color="info.color"
             class="sticky top-0 z-10"
         />

@@ -54,6 +54,7 @@
             <!-- Heading -->
             <SectionHeader
                 :color="info.color"
+                :title="info.section"
                 class="lg:order-1"
             />
             <!-- Tech Stack for Project -->

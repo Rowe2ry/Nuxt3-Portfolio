@@ -2,6 +2,7 @@
     <div class="relative w-full">
         <SectionHeader
             v-if="info.section && info.color !== 'pink'"
+            :title="info.section"
             :color="info.color"
             class="sticky top-0 z-10"
         />
